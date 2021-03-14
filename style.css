@@ -17,6 +17,7 @@ body{
 
 .boxbig h1{
     text-align: center;
+    text-align: justify;
     background-position: center;
     align-items: center;
     justify-content: center;
@@ -33,10 +34,14 @@ body{
     padding: 0;
 }
 .box img{
-    margin-right: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 10px;
     float: left;
     border: 1px solid  black;
-    padding: 2px;
+    padding: 10px;
    
 }
 /*sharingBox{
@@ -65,14 +70,19 @@ body{
     
 }
  h3{
+ /* background-position: center; */
      color:white;
     text-align: center;
+    /* text-size-adjust: 10px; */
     
-    padding-top: 3px;
-    padding-bottom: 3px;
+    /* padding-top: 3px; */
+    /* padding-bottom: 3px; */
+    height:25px;
+    width:230px;
 
-    padding-left: 4px;
-    padding-right: 4px;
+
+    padding-left: 0px;
+    padding-right: 0px;
     background: rgba(51, 216, 29, 0.836);
     background-color: rgb(68, 128, 0);
     text-shadow: 4px 3px 0px black;
